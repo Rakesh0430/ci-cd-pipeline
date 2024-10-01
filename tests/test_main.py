@@ -1,6 +1,12 @@
 # tests/test_main.py
+import sys
+import os
 import pytest
-from app.main import app
+
+# Add the app directory to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'app')))
+
+from main import app
 
 @pytest.fixture
 def client():
