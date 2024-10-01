@@ -1,0 +1,4 @@
+[2024-09-30 12:07:18,446] 	INFO 	83 	test3.py 	<module>() 	Application started.
+[2024-09-30 12:07:18,446] 	INFO 	56 	test3.py 	log_finance_operation() 	Operation: Deposit, Amount: 1000
+[2024-09-30 12:07:18,446] 	INFO 	56 	test3.py 	log_finance_operation() 	Operation: Withdrawal, Amount: 500
+[2024-09-30 12:07:18,446] 	INFO 	89 	test3.py 	<module>() 	Application finished.
